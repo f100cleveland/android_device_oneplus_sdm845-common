@@ -33,13 +33,14 @@
 #include <fcntl.h>
 #include <stdlib.h>
 #include <string.h>
+#include <unistd.h>
 
 #include "hint-data.h"
 #include "list.h"
 #include "power-common.h"
 #include "utils.h"
 
-#define LOG_TAG "QCOM PowerHAL"
+#define LOG_TAG "QTI PowerHAL"
 #include <utils/Log.h>
 
 #define USINSEC 1000000L
